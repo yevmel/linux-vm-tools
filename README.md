@@ -4,6 +4,10 @@ This repository is the home of a set of bash scripts that enable and configure a
 # How to use the repo
 Onboarding instructions for Ubuntu can be found on the [repo wiki](https://github.com/Microsoft/linux-vm-tools/wiki/Onboarding:-Ubuntu).
 
+(!) Do not forget to set _EnhancedSessionTransportType_:
+   
+   Set-VM -VMName VM_NAME -EnhancedSessionTransportType HvSocket
+
 # FAQ
 Frequently Asked Questions for this repo can be found on the [repo wiki](https://github.com/Microsoft/linux-vm-tools/wiki/FAQ).
 
